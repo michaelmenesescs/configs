@@ -1,0 +1,5 @@
+{
+  "description": "Claude Code configuration for synchronization across machines",
+  "installation": "Copy this file to ~/.claude.json on each machine",
+  "notes": "This is a minimal config file for version control. Do not commit your full .claude.json as it contains user ID and API credentials."
+}

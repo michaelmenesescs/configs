@@ -1,0 +1,56 @@
+# Ghostty Configuration
+# https://ghostty.org/docs/config
+
+# Window & Appearance
+window-title = "Ghostty"
+window-theme = "dark"
+background = "#0a0e27"
+foreground = "#e0def4"
+
+# Font
+font-family = "Monospace"
+font-size = 12
+
+# Cursor
+cursor-style = "block"
+cursor-opacity = 0.5
+
+# Padding & Margins
+padding-x = 10
+padding-y = 10
+
+# Scrollback buffer
+scrollback-limit = 10000
+
+# Bell (system notification)
+bell = "visual"
+
+# Tab bar
+tab-bar-style = "compact"
+tab-title-style = "compact"
+
+# Keybindings
+# New window: Cmd+N (macOS default)
+keybind = super+n=new_window
+
+# New tab: Cmd+T
+keybind = super+t=new_tab
+
+# Close tab: Cmd+W
+keybind = super+w=close_surface
+
+# Switch tabs: Cmd+[ Cmd+]
+keybind = super+bracketleft=goto_previous_tab
+keybind = super+bracketright=goto_next_tab
+
+# Close window: Cmd+Q
+keybind = super+q=quit
+
+# Copy to clipboard: Cmd+C
+keybind = super+c=copy_to_clipboard
+
+# Paste from clipboard: Cmd+V
+keybind = super+v=paste_from_clipboard
+
+# Search: Cmd+F
+keybind = super+f=open_search
